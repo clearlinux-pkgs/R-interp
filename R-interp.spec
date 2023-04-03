@@ -5,7 +5,7 @@
 #
 Name     : R-interp
 Version  : 1.1.4
-Release  : 6
+Release  : 7
 URL      : https://cran.r-project.org/src/contrib/interp_1.1-4.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/interp_1.1-4.tar.gz
 Summary  : Interpolation Methods
@@ -24,9 +24,6 @@ BuildRequires : R-ggplot2
 BuildRequires : R-gridExtra
 BuildRequires : R-scatterplot3d
 BuildRequires : buildreq-R
-# Suppress stripping binaries
-%define __strip /bin/true
-%define debug_package %{nil}
 
 %description
 grids, either linear or using splines are the main part of this
@@ -48,10 +45,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1680536558
+export SOURCE_DATE_EPOCH=1680538097
 
 %install
-export SOURCE_DATE_EPOCH=1680536558
+export SOURCE_DATE_EPOCH=1680538097
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
