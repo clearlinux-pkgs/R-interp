@@ -7,7 +7,7 @@
 #
 Name     : R-interp
 Version  : 1.1.6
-Release  : 12
+Release  : 13
 URL      : https://cran.r-project.org/src/contrib/interp_1.1-6.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/interp_1.1-6.tar.gz
 Summary  : Interpolation Methods
